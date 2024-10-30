@@ -70,16 +70,7 @@ GET /api/tasks/ - Get all tasks
 POST /api/tasks/ - Create a new task
 PUT /api/tasks/<id>/ - Update a task
 DELETE /api/tasks/<id>/ - Delete a task
-Screenshots 🖼️
-Here’s a preview of the app:
-
-<!-- Add a screenshot path if you have one -->
 
 Usage 🎉
 Go to the frontend URL to interact with the Task Manager interface.
 Add tasks using the form, view them in the list, and delete or update them as needed.
-Contributing 🤝
-Feel free to fork this project and make your own improvements. Submit a pull request if you’d like to contribute!
-
-License 📜
-This project is open-source and available under the MIT License.
