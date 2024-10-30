@@ -25,48 +25,44 @@ Follow these instructions to get the project running on your local machine.
 git clone https://github.com/your-username/Django_React_Demostraci-n.git
 cd Django_React_Demostraci-n
 
-2. Set Up the Backend
+### 2. Set Up the Backend
 Navigate to the backend directory and create a virtual environment:
 
-bash
-Copy code
+```bash
 cd backend
 python -m venv env
-Activate the virtual environment:
 
+Activate the virtual environment:
 On Windows:
 bash
-Copy code
 .\env\Scripts\activate
+
 On macOS/Linux:
 bash
-Copy code
 source env/bin/activate
 Install dependencies:
 
 bash
-Copy code
 pip install -r requirements.txt
 Apply migrations and run the server:
 
 bash
-Copy code
 python manage.py makemigrations
 python manage.py migrate
 python manage.py runserver
-3. Set Up the Frontend
+
+### 3. Set Up the Frontend
 Open a new terminal window, navigate to the frontend directory, and install dependencies:
 
 bash
-Copy code
 cd ../frontend
 npm install
 Run the React app:
 
 bash
-Copy code
 npm start
-4. Access the Application
+
+### 4. Access the Application
 Frontend: Open http://localhost:3000 in your browser.
 Backend API: Open http://localhost:8000 in your browser.
 API Endpoints 📡
